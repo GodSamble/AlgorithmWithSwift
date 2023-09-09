@@ -22,3 +22,6 @@ print(result)
 //11
 //1 4 1 2 4 2 4 2 3 4 4
 //2
+
+
+// TODO: 문자찾기 // String(i) == s
