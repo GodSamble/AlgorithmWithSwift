@@ -35,6 +35,9 @@
 		1DCA39662AAECD90000E5EAF /* 10988.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10988.swift; sourceTree = "<group>"; };
 		1DCA39682AAEE6FA000E5EAF /* 25206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25206.swift; sourceTree = "<group>"; };
 		1DCA396A2AB26EE9000E5EAF /* 1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1316.swift; sourceTree = "<group>"; };
+		1DCA396C2AB39176000E5EAF /* 10813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10813.swift; sourceTree = "<group>"; };
+		1DCA396E2AB3959B000E5EAF /* 10811.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10811.swift; sourceTree = "<group>"; };
+		1DCA39702AB39B85000E5EAF /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,9 @@
 				1DCA39662AAECD90000E5EAF /* 10988.swift */,
 				1DCA39682AAEE6FA000E5EAF /* 25206.swift */,
 				1DCA396A2AB26EE9000E5EAF /* 1316.swift */,
+				1DCA396C2AB39176000E5EAF /* 10813.swift */,
+				1DCA396E2AB3959B000E5EAF /* 10811.swift */,
+				1DCA39702AB39B85000E5EAF /* 2941.swift */,
 			);
 			path = Algorithm_Class;
 			sourceTree = "<group>";
