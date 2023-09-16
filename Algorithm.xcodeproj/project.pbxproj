@@ -19,7 +19,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1D623E282AA90C8A001730F3 /* 23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.swift; sourceTree = "<group>"; };
 		1DC304062AA6455C00A683EB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC304152AA7493400A683EB /* 25304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25304.swift; sourceTree = "<group>"; };
 		1DC304182AA7502C00A683EB /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
@@ -40,6 +39,8 @@
 		1DCA39702AB39B85000E5EAF /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
 		1DCA39722AB4EF63000E5EAF /* 2738.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2738.swift; sourceTree = "<group>"; };
 		1DCA39742AB501CD000E5EAF /* 2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2566.swift; sourceTree = "<group>"; };
+		1DCA39762AB507B6000E5EAF /* 10798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10798.swift; sourceTree = "<group>"; };
+		1DCA397B2AB5B4BA000E5EAF /* 2563.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2563.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +86,10 @@
 		1DC304142AA747D800A683EB /* Algorithm_silver */ = {
 			isa = PBXGroup;
 			children = (
-				1D623E282AA90C8A001730F3 /* 23.swift */,
+				1DCA39762AB507B6000E5EAF /* 10798.swift */,
+				1DCA397B2AB5B4BA000E5EAF /* 2563.swift */,
+				1DCA39742AB501CD000E5EAF /* 2566.swift */,
+				1DCA39722AB4EF63000E5EAF /* 2738.swift */,
 			);
 			path = Algorithm_silver;
 			sourceTree = "<group>";
@@ -106,8 +110,6 @@
 				1DCA396C2AB39176000E5EAF /* 10813.swift */,
 				1DCA396E2AB3959B000E5EAF /* 10811.swift */,
 				1DCA39702AB39B85000E5EAF /* 2941.swift */,
-				1DCA39722AB4EF63000E5EAF /* 2738.swift */,
-				1DCA39742AB501CD000E5EAF /* 2566.swift */,
 			);
 			path = Algorithm_Class;
 			sourceTree = "<group>";
