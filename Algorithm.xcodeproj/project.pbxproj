@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D4EEA4A2AB808DD0018DB90 /* 1193.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1193.swift; sourceTree = "<group>"; };
 		1DC304062AA6455C00A683EB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC304152AA7493400A683EB /* 25304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25304.swift; sourceTree = "<group>"; };
 		1DC304182AA7502C00A683EB /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 				1DCA39852AB7A53F000E5EAF /* 2903.swift */,
 				1DCA39742AB501CD000E5EAF /* 2566.swift */,
 				1DCA398B2AB80302000E5EAF /* 2292.swift */,
+				1D4EEA4A2AB808DD0018DB90 /* 1193.swift */,
 				1DCA39722AB4EF63000E5EAF /* 2738.swift */,
 			);
 			path = Algorithm_silver;
