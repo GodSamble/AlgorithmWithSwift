@@ -69,6 +69,7 @@
 		1DF6CDB32AC6D87A00FB6359 /* 1343.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1343.swift; sourceTree = "<group>"; };
 		1DF6CDB52AC6DC0B00FB6359 /* 1439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1439.swift; sourceTree = "<group>"; };
 		1DF6CDB72AC6E04B00FB6359 /* 1455.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1455.swift; sourceTree = "<group>"; };
+		1DF6CDB92AC8336300FB6359 /* 1474.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1474.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 				1DF6CDB32AC6D87A00FB6359 /* 1343.swift */,
 				1DF6CDB52AC6DC0B00FB6359 /* 1439.swift */,
 				1DF6CDB72AC6E04B00FB6359 /* 1455.swift */,
+				1DF6CDB92AC8336300FB6359 /* 1474.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
