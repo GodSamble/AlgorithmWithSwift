@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1D41844C2AD87952009D7178 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41844B2AD87951009D7178 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		1DC304042AA6455C00A683EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -179,6 +183,14 @@
 				1DC304182AA7502C00A683EB /* 10807.swift */,
 				1DCA395A2AAB3838000E5EAF /* 10810.swift */,
 				1DCA396E2AB3959B000E5EAF /* 10811.swift */,
+				1D4184452AD86612009D7178 /* 11650.swift */,
+				1D4184472AD86A2B009D7178 /* 10828.swift */,
+				1D4184492AD86F40009D7178 /* 10845.swift */,
+<<<<<<< Updated upstream
+				1D41844B2AD87951009D7178 /* main.swift */,
+=======
+				1D41844B2AD87951009D7178 /* 10866.swift */,
+>>>>>>> Stashed changes
 				1DCA396C2AB39176000E5EAF /* 10813.swift */,
 				1DCA39662AAECD90000E5EAF /* 10988.swift */,
 				1DCA397F2AB65967000E5EAF /* 11005.swift */,
@@ -275,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D41844C2AD87952009D7178 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
