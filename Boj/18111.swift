@@ -29,7 +29,7 @@ for i in 0..<N {
             highest = ground[i][j]
         }
     }
-}
+} // 이차원 배열 i j 중첩반복문을 사용해서, 최저값 최고값 갱신.
 
 for i in stride(from: highest, through: lowest, by: -1) {
     var tmpTime = 0
@@ -46,7 +46,8 @@ for i in stride(from: highest, through: lowest, by: -1) {
                 continue
             }
         }
-    }
+    } // 인벤토리 사용과 높은 거 캐는데 소요시간을 구현함.
+    
     if item < 0 {
         continue
     }
