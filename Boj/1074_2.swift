@@ -10,7 +10,7 @@ import Foundation
 
 // TODO: 분할정복으로  풀었을떄
 
-/*
+
  var input = readLine()!.split(separator: " ").map { Int($0)! }
  var N = input[0]
  var r = input[1]
@@ -38,4 +38,3 @@ import Foundation
 
  print(ans)
 
- */

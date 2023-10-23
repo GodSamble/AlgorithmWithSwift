@@ -7,9 +7,7 @@
 
 import Foundation
 
-
 // TODO: 재귀로 풀었을떄
-
 
 
 func sol(_ N: Int, _ r: Int, _ c: Int) -> Int {
