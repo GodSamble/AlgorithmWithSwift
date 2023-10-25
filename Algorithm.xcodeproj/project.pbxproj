@@ -59,6 +59,8 @@
 		1D69661A2AD03A5B006BD3EF /* 1300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1300.swift; sourceTree = "<group>"; };
 		1D74FADB2AE82A0500B70129 /* 1389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1389.swift; sourceTree = "<group>"; };
 		1D74FADD2AE83EBA00B70129 /* 2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2630.swift; sourceTree = "<group>"; };
+		1D74FADE2AE84F9900B70129 /* 7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576.swift; sourceTree = "<group>"; };
+		1D74FAE02AE93BC100B70129 /* 7569.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7569.swift; sourceTree = "<group>"; };
 		1D9CEFE42ADEE7A8000FDF12 /* 1874.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1874.swift; sourceTree = "<group>"; };
 		1D9CEFE62AE15135000FDF12 /* 1929.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1929.swift; sourceTree = "<group>"; };
 		1D9CEFE82AE156D5000FDF12 /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
@@ -147,9 +149,20 @@
 			path = Searching;
 			sourceTree = "<group>";
 		};
+		1D74FAE22AE93DFB00B70129 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				1D74FADE2AE84F9900B70129 /* 7576.swift */,
+				1D74FAE02AE93BC100B70129 /* 7569.swift */,
+				1D74FADB2AE82A0500B70129 /* 1389.swift */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
 		1DC303FD2AA6455C00A683EB = {
 			isa = PBXGroup;
 			children = (
+				1D74FAE22AE93DFB00B70129 /* Star */,
 				1DF6CDDB2AC9B2F900FB6359 /* DFS */,
 				1D4EEA692AC422EC0018DB90 /* Searching */,
 				1D4EEA682AC421950018DB90 /* Greedy */,
@@ -239,7 +252,6 @@
 				1D9CF03D2AE56C35000FDF12 /* 10773.swift */,
 				1D9CF03F2AE56E55000FDF12 /* 4949.swift */,
 				1D9CF0412AE598AE000FDF12 /* 18111.swift */,
-				1D74FADB2AE82A0500B70129 /* 1389.swift */,
 				1D74FADD2AE83EBA00B70129 /* 2630.swift */,
 				1D9CF0432AE6A2B2000FDF12 /* 1074_1.swift */,
 				1D9CF0452AE6B12C000FDF12 /* 1074_2.swift */,
