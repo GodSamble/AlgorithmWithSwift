@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//TODO: 풀이방법 => DFS
+//TODO: 풀이방법 => BFS
 //TODO: struct로 Queue를 구현함으로써 메모리 측면에서 이점을 가지는 습관 길들일 것.
 //TODO: 괜찮은 BFS 예제이므로 반드시 다시 풀어볼 것!!
 
