@@ -9,7 +9,7 @@ import Foundation
 
 var T = Int(readLine()!)!
 var cache = Array(repeating: (-1, -1), count: 41) // 중간 중간 저장하기 위한 배열의 이름을 작명시
-// cache 추천! 
+// cache 추천!
 
 for _ in 0..<T {
     var input = Int(readLine()!)!
