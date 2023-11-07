@@ -87,6 +87,7 @@
 		1D9CF0432AE6A2B2000FDF12 /* 1074_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_1.swift; sourceTree = "<group>"; };
 		1D9CF0452AE6B12C000FDF12 /* 1074_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_2.swift; sourceTree = "<group>"; };
 		1DBC33EE2AF755880015FF23 /* 10026_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026_2.swift; sourceTree = "<group>"; };
+		1DBC33FF2AF81EC90015FF23 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 		1DC304062AA6455C00A683EB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC304152AA7493400A683EB /* 25304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25304.swift; sourceTree = "<group>"; };
 		1DC304182AA7502C00A683EB /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
@@ -200,9 +201,18 @@
 			path = Silver;
 			sourceTree = "<group>";
 		};
+		1DBC33F02AF7599F0015FF23 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				1D4143432AD81C4300C30CDC /* 15829.swift */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
 		1DC303FD2AA6455C00A683EB = {
 			isa = PBXGroup;
 			children = (
+				1DBC33F02AF7599F0015FF23 /* Hash */,
 				1D74FB052AF168C000B70129 /* PlayGround */,
 				1D74FAFE2AEC61EB00B70129 /* DFS */,
 				1D74FAE52AE9D00C00B70129 /* DP */,
@@ -277,7 +287,6 @@
 				1D41433D2AD7005500C30CDC /* 9012.swift */,
 				1D41433F2AD7045100C30CDC /* 2609.swift */,
 				1D4143412AD70CA600C30CDC /* 11651.swift */,
-				1D4143432AD81C4300C30CDC /* 15829.swift */,
 				1D4184552ADAA286009D7178 /* 1920.swift */,
 				1D4184572ADAAAD3009D7178 /* 2751.swift */,
 				1D4184592ADAADDE009D7178 /* 10814.swift */,
@@ -300,6 +309,7 @@
 				1D9CF0452AE6B12C000FDF12 /* 1074_2.swift */,
 				1D9CEFE42ADEE7A8000FDF12 /* 1874.swift */,
 				1D74FAE62AE9D3EB00B70129 /* 17219.swift */,
+				1DBC33FF2AF81EC90015FF23 /* 1764.swift */,
 			);
 			path = Boj;
 			sourceTree = "<group>";
