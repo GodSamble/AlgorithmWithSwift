@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D1C1F8B2AFBC3800043B9DA /* 1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1927.swift; sourceTree = "<group>"; };
 		1D2037762ADAE95D000DB574 /* 4153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4153.swift; sourceTree = "<group>"; };
 		1D2037812ADC1871000DB574 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
 		1D20378E2ADDA0EC000DB574 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
@@ -138,6 +139,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D1C1F8E2AFFB74F0043B9DA /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				1D1C1F8B2AFBC3800043B9DA /* 1927.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		1D4EEA682AC421950018DB90 /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +224,7 @@
 		1DC303FD2AA6455C00A683EB = {
 			isa = PBXGroup;
 			children = (
+				1D1C1F8E2AFFB74F0043B9DA /* Heap */,
 				1DBC33F02AF7599F0015FF23 /* Hash */,
 				1D74FB052AF168C000B70129 /* PlayGround */,
 				1D74FAFE2AEC61EB00B70129 /* DFS */,

@@ -22,8 +22,8 @@ for _ in 0..<n {
 }
 var queue: [(Int, Int)] = []
 for y in 0..<n {
-for x in 0..<m {
-if graph[y][x] == 1 {
+    for x in 0..<m {
+            if graph[y][x] == 1 {
             queue.append((y, x))
         }
     }
@@ -33,9 +33,9 @@ while queue.count > index {
 let y = queue[index].0
 let x = queue[index].1
 for i in 0..<4 {
-let ny = y + dy[i]
-let nx = x + dx[i]
-if 0..<m ~= nx && 0..<n ~= ny && graph[ny][nx] == 0 {
+    let ny = y + dy[i]
+    let nx = x + dx[i]
+        if 0..<m ~= nx && 0..<n ~= ny && graph[ny][nx] == 0 {
             graph[ny][nx] = graph[y][x] + 1
             queue.append((ny, nx))
         }
