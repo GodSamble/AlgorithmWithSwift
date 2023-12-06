@@ -105,6 +105,7 @@
 		1D9CF0432AE6A2B2000FDF12 /* 1074_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_1.swift; sourceTree = "<group>"; };
 		1D9CF0452AE6B12C000FDF12 /* 1074_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_2.swift; sourceTree = "<group>"; };
 		1DA1E1F12B1F2F7A002A0BAF /* 11279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11279.swift; sourceTree = "<group>"; };
+		1DA1E1F32B20C46D002A0BAF /* 11286.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11286.swift; sourceTree = "<group>"; };
 		1DBC33EE2AF755880015FF23 /* 10026_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026_2.swift; sourceTree = "<group>"; };
 		1DBC33FF2AF81EC90015FF23 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 		1DBC34012AF9DE0E0015FF23 /* 1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1003.swift; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 			children = (
 				1D1C1F8B2AFBC3800043B9DA /* 1927.swift */,
 				1DA1E1F12B1F2F7A002A0BAF /* 11279.swift */,
+				1DA1E1F32B20C46D002A0BAF /* 11286.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
