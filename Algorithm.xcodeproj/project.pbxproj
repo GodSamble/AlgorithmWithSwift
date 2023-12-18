@@ -106,6 +106,7 @@
 		1D9CF0452AE6B12C000FDF12 /* 1074_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_2.swift; sourceTree = "<group>"; };
 		1DA1E1F12B1F2F7A002A0BAF /* 11279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11279.swift; sourceTree = "<group>"; };
 		1DA1E1F32B20C46D002A0BAF /* 11286.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11286.swift; sourceTree = "<group>"; };
+		1DA1E2052B24E49B002A0BAF /* 25206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25206.swift; sourceTree = "<group>"; };
 		1DBC33EE2AF755880015FF23 /* 10026_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026_2.swift; sourceTree = "<group>"; };
 		1DBC33FF2AF81EC90015FF23 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 		1DBC34012AF9DE0E0015FF23 /* 1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1003.swift; sourceTree = "<group>"; };
@@ -253,6 +254,14 @@
 			path = Silver;
 			sourceTree = "<group>";
 		};
+		1DA1E2082B24E98F002A0BAF /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				1DA1E2052B24E49B002A0BAF /* 25206.swift */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
 		1DBC33F02AF7599F0015FF23 /* Hash */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +273,7 @@
 		1DC303FD2AA6455C00A683EB = {
 			isa = PBXGroup;
 			children = (
+				1DA1E2082B24E98F002A0BAF /* Silver */,
 				1D1C1FD82B0B69EE0043B9DA /* DataStruct */,
 				1D1C1F8E2AFFB74F0043B9DA /* Heap */,
 				1DBC33F02AF7599F0015FF23 /* Hash */,
