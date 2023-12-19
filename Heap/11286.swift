@@ -11,93 +11,81 @@ import Foundation
 
 // absHeap이란 문제에서 요구하는 절댓값을 주기 위해서, 꺽새 기호로 임의적인 조건을 달아주는 걸 내포한 힙을 의미한다.
 
-struct Heap<T: Comparable> {
-    private var elements: [T] = []
-    private let comparer: (T, T) -> Bool
+class Heap<T> {
+    private var nodes: [T] = []
+    private let compare: (T,T) -> Bool
+    
+    init(sort: @escaping (T,T) -> Bool) {
+        self.compare = sort
+    }
     
     var isEmpty: Bool {
-        return elements.count <= 1
+        nodes.isEmpty
     }
     
-    var peek: T? {
-        if isEmpty {
+    func insert(_ element: T) {
+        var idx = nodes.count
+        nodes.append(element)
+        
+        while idx > 0, compare(nodes[idx], nodes[(idx-1)/2]) {
+            nodes.swapAt(idx, (idx-1)/2)
+            idx = (idx-1)/2
+        }
+    }
+    
+    func delete() -> T? {
+        guard nodes.isEmpty == false else {
             return nil
         }
-        return elements[1]
-    }
-    
-    init(comparer: @escaping (T,T) -> Bool) {
-        self.comparer = comparer
-    }
-    
-    mutating func insert(element: T) {
-        if elements.isEmpty {
-            elements.append(element)
-            elements.append(element)
-            return
-        }
-        elements.append(element)
-        swimUp(index: elements.count - 1)
-    }
-    
-    mutating private func swimUp(index: Int) {
-        var index = index
-        while index > 1 && comparer(elements[index], elements[index / 2]) {
-            elements.swapAt(index, index / 2)
-            index /= 2
-        }
-    }
-    
-    mutating func pop() -> T? {
-        if elements.count < 2 { return nil }
-        elements.swapAt(1, elements.count - 1)
-        let deletedElement = elements.removeLast()
-        diveDown(index: 1)
-        return deletedElement
-    }
-    
-    mutating private func diveDown(index: Int) {
-        var swapIndex = index
-        var isSwap = false
-        let leftIndex = index * 2
-        let rightIndex = index * 2 + 1
-
-        if leftIndex < elements.endIndex && comparer(elements[leftIndex], elements[swapIndex]) {
-            swapIndex = leftIndex
-            isSwap = true
+        
+        if nodes.count == 1 {
+            return nodes.removeLast()
         }
         
-        if rightIndex < elements.endIndex && comparer(elements[rightIndex], elements[swapIndex]) {
-            swapIndex = rightIndex
-            isSwap = true
+        let target = nodes.first
+        nodes.swapAt(0, nodes.count - 1)
+        _ = nodes.popLast()
+        
+        var idx = 0
+        let limit = nodes.count
+        
+        while idx < limit {
+            let leftChild = idx * 2 + 1
+            let rightChild = leftChild + 1
+            
+            let children = [leftChild, rightChild]
+                    .filter{$0 < limit && compare(nodes[$0], nodes[idx])}
+                    .sorted {compare(nodes[$0], nodes[$1])}
+                                
+            if children.isEmpty { break }
+            
+            nodes.swapAt(idx, children[0])
+            idx = children[0]
         }
-
-        if isSwap {
-            elements.swapAt(swapIndex, index)
-            diveDown(index: swapIndex)
-        }
+        
+        return target
     }
 }
-
-struct Data: Comparable {
-    static func < (lhs: Data, rhs: Data) -> Bool {
-        return lhs.value == rhs.value ? lhs.num < rhs.num : lhs.value < rhs.value
+let heap = Heap<Int> {
+    if abs($0) < abs($1) {
+        return true
+    } else if abs($0) == abs($1) {
+        return $0 < $1
+    } else {
+        return false
     }
-    var value: Int
-    var num: Int
-    
 }
 
 let n = Int(readLine()!)!
-
-var absHeap: Heap<Data> = Heap(comparer: <)
+var ans = ""
 
 for _ in 0..<n {
-    let x = Int(readLine()!)!
-    if x == 0 {
-        print(absHeap.pop()?.num ?? 0)
-    } else {
-        absHeap.insert(element: Data(value: abs(x), num: x))
-    }
+    let cmd = Int(readLine()!)!
     
+    if cmd == 0 {
+        ans += "\(heap.delete() ?? 0)\n"
+    } else {
+        heap.insert(cmd)
+    }
 }
+print(ans.dropLast())
