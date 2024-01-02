@@ -7,6 +7,9 @@
 
 import Foundation
 
+
+// 패션왕 신해빈
+
 for _ in 0..<Int(readLine()!)!{ // testcase만큼 반복
     var result_arr: [Int] = [] // 각 value + 1을 넣을 배열
     var dic = [String: [String]]()
